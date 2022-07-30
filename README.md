@@ -5,6 +5,10 @@
   waliullah.dev
 </h1>
 
+<p align="center">
+  Personal portfolio website, built with Gatsby.
+</p>
+
 ![demo](./src/images/demo.png)
 
 
