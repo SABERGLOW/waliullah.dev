@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/SABERGLOW/waliullah.dev/blob/main/src/images/logo.png?raw=true" target="_blank">
+  <img alt="Logo" src="https://github.com/SABERGLOW/waliullah.dev/blob/main/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
   waliullah.dev
