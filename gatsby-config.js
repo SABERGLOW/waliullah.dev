@@ -6,7 +6,7 @@ module.exports = {
     title: 'Wali Ullah',
     description:
       'Wali Ullah a proactive & enthusiastic computer engineer seeking challenging projects.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://saberglow.github.io/waliullah.dev/', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@SardarWaliUllah',
   },
