@@ -14,11 +14,12 @@ const button = css`
   padding: 1.25rem 1.75rem;
 
   &:hover,
+  &:focus,
   &:active {
     background-color: var(--green-tint);
     outline: none;
   }
-  &:focus,
+  
   &:after {
     display: none !important;
   }
@@ -100,11 +101,12 @@ const mixins = {
     cursor: pointer;
     transition: var(--transition);
     &:hover,
+    &:focus,
     &:active {
       background-color: var(--green-tint);
       outline: none;
     }
-    &:focus,
+    
     &:after {
       display: none !important;
     }
@@ -123,11 +125,12 @@ const mixins = {
     cursor: pointer;
     transition: var(--transition);
     &:hover,
+    &:focus,
     &:active {
       background-color: var(--green-tint);
       outline: none;
     }
-    &:focus,
+    
     &:after {
       display: none !important;
     }
