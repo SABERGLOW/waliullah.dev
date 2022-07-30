@@ -149,7 +149,7 @@ const About = () => {
           <div>
             <p>
               Hello there! My name is Wali and I like to code beautiful and functional things for
-              the web. In the evenings, you can find me around the streets of Budapest, or alongisde
+              the web. In the evenings, you can find me around the streets of Budapest, or alongside
               the Danube river,
               <a href="https://www.instagram.com/sardarwaliullah/">behind the lens</a>,{' '}
               photographing the city and its life through a unique perspective. I also love music,
