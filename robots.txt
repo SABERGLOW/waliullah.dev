@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://brittanychiang.com/waliullah.dev/sitemap/sitemap-index.xml
-Host: https://brittanychiang.com
+Sitemap: https://saberglow.github.io/waliullah.dev/sitemap/sitemap-index.xml
+Host: https://saberglow.github.io
