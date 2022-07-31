@@ -6,7 +6,14 @@
 </h1>
 
 <p align="center">
-  Personal portfolio website, built with Gatsby.
+  Personal portfolio website, built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>.
+</p>
+</p>
+
+<p align="center">
+  <a href="https://app.netlify.com/sites/waliullah/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/a46a9f38-f3a7-43db-b197-ced2afb4f4c1/deploy-status" alt="Netlify Status" />
+  </a>
 </p>
 
 ![demo](./src/images/demo.png)
