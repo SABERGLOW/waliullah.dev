@@ -3,7 +3,7 @@ date: '2020-07-06'
 title: 'Student Mentor'
 company: 'HÖOK'
 location: 'Budapest, Hungary'
-range: 'July 2020 - Present'
+range: 'July 2020 - July 2022'
 url: 'https://shmentor.hu/'
 ---
 

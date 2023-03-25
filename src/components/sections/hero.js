@@ -65,16 +65,20 @@ const Hero = () => {
     <>
       <p>
         I'm a proactive &amp; enthusiastic computer engineer who's seeking challenging projects.
-        Currently, I'm in the last year of my Computer Science Engineering bachelors at{' '}
+        I have recently started my professional career at{' '}
+        <a href="https://www.mckinsey.com/capabilities/mckinsey-digital/how-we-help-clients" target="_blank" rel="noreferrer">
+          McKinsey Digital
+        </a>{' '}
+        as a Fellow Engineer after graduting from{' '}
         <a href="https://www.bme.hu/?language=en" target="_blank" rel="noreferrer">
           BME
-        </a>
-        {'. '}
-        I’m also a Developer Intern at{' '}
-        <a href="https://corporate.exxonmobil.com/" target="_blank" rel="noreferrer">
-          ExxonMobil
         </a>{' '}
-        where I do Front-End, DevOps and QA.
+        where I did my bachelors in Computer Science Engineering.
+        Previously, I was a Developer Intern at{' '}
+        <a href="https://corporate.exxonmobil.com/locations/hungary" target="_blank" rel="noreferrer">
+          Exxonmobil
+        </a>{' '}
+        where I did Front-End, DevOps, and QA.
       </p>
     </>
   );

@@ -130,11 +130,11 @@ const About = () => {
     'TypeScript',
     'HTML & CSS',
     'React',
+    'Next.js',
     'Angular',
     'Azure',
     'Firebase',
     'Git',
-    'Node.js',
     'Kotlin',
     'Java',
     'C/C++',
@@ -164,10 +164,11 @@ const About = () => {
             </p>
 
             <p>
-              Fast-forward to today, I see myself graduating in 2023 as a Computer Science Engineer
+              Fast-forward to today, I have completed my bachelors in Computer Science Engineering
               from Budapest University of Technology and Economics,{' '}
-              <a href="https://www.bme.hu/?language=en"> BME </a>. In the recent years, I’ve had the
+              <a href="https://www.bme.hu/?language=en"> BME </a>, class of 2023. I’ve had the
               privilege of working at{' '}
+              <a href="https://www.mckinsey.com/">world’s leading consulting firm</a>,{' '}
               <a href="https://corporate.exxonmobil.com/">one of the Fortune 500s</a>, teaching Java
               and Python at an{' '}
               <a href="https://www.hkcodingcamp.com/">online coding education start-up</a>, and
@@ -176,9 +177,10 @@ const About = () => {
             </p>
 
             <p>
-              My main focus these days is developing and testing new features that would help us
-              automate and effectuate client on-boarding experience at{' '}
-              <a href="https://corporate.exxonmobil.com/">ExxonMobil</a>.
+              My main focus these days is driving and innovating the digital transforation
+              of our clients by leveraging the latest technologies and harnessing the power of data
+              at{' '}
+              <a href="https://www.mckinsey.com/capabilities/mckinsey-digital/how-we-help-clients">McKinsey Digital</a>.
             </p>
 
             <p>Here are a few technologies I’ve been working with/learning about recently:</p>

@@ -3,7 +3,7 @@ date: '2021-01-04'
 title: 'Developer Intern'
 company: 'ExxonMobil'
 location: 'Budapest, Hungary'
-range: 'January 2021 - Present'
+range: 'January 2021 - February 2022'
 url: 'https://corporate.exxonmobil.com/'
 ---
 
