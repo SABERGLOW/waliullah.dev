@@ -69,7 +69,7 @@ const Hero = () => {
         <a href="https://www.mckinsey.com/capabilities/mckinsey-digital/how-we-help-clients" target="_blank" rel="noreferrer">
           McKinsey Digital
         </a>{' '}
-        as a Fellow Engineer after graduting from{' '}
+        as a Fellow Engineer after graduating from{' '}
         <a href="https://www.bme.hu/?language=en" target="_blank" rel="noreferrer">
           BME
         </a>{' '}
