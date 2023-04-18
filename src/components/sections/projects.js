@@ -14,13 +14,19 @@ const StyledProjectsSection = styled.section`
 
   h2 {
     font-size: clamp(24px, 5vw, var(--fz-heading));
+    color: var(--light-mimir-green);
   }
 
   .archive-link {
     font-family: var(--font-mono);
     font-size: var(--fz-sm);
+    color: var(--lightest-mimir-green);
     &:after {
       bottom: 0.1em;
+    }
+    &:hover,
+    &:focus {
+      color: var(--lightest-mimir-green);
     }
   }
 
@@ -71,7 +77,7 @@ const StyledProject = styled.li`
     height: 100%;
     padding: 2rem 1.75rem;
     border-radius: var(--border-radius);
-    background-color: var(--light-navy);
+    background-color: var(--dark-mimir-green-og);
     transition: var(--transition);
     overflow: auto;
   }
@@ -81,7 +87,7 @@ const StyledProject = styled.li`
     margin-bottom: 35px;
 
     .folder {
-      color: var(--green);
+      color: var(--lightest-mimir-green);
       svg {
         width: 40px;
         height: 40px;
@@ -92,7 +98,7 @@ const StyledProject = styled.li`
       display: flex;
       align-items: center;
       margin-right: -10px;
-      color: var(--light-slate);
+      color: var(--light-mimir-green);
 
       a {
         ${({ theme }) => theme.mixins.flexCenter};
@@ -116,7 +122,7 @@ const StyledProject = styled.li`
 
   .project-title {
     margin: 0 0 10px;
-    color: var(--lightest-slate);
+    color: var(--lightest-mimir-green);
     font-size: var(--fz-xxl);
 
     a {
@@ -132,11 +138,16 @@ const StyledProject = styled.li`
         top: 0;
         left: 0;
       }
+
+      &:hover,
+      &:focus {
+        color: var(--light-mimir-green);
+      }
     }
   }
 
   .project-description {
-    color: var(--light-slate);
+    color: var(--light-mimir-green);
     font-size: 17px;
 
     a {

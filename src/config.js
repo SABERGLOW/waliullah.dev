@@ -48,6 +48,11 @@ module.exports = {
     green: '#64ffda',
     navy: '#0a192f',
     darkNavy: '#020c1b',
+    mimirGreenDarkest: '#062925',
+    mimirGreenDarker: '#044A42',
+    mimirGreenDark: '#3A9188',
+    mimirGreen: '#B8E1DD',
+    mimirWhite: '#F1F2EB',
   },
 
   srConfig: (delay = 200, viewFactor = 0.25) => ({

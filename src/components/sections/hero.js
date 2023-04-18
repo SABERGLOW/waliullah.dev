@@ -18,7 +18,7 @@ const StyledHeroSection = styled.section`
 
   h1 {
     margin: 0 0 30px 4px;
-    color: var(--green);
+    color: var(--lightest-mimir-green);
     font-family: var(--font-mono);
     font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
     font-weight: 400;
@@ -30,7 +30,7 @@ const StyledHeroSection = styled.section`
 
   h3 {
     margin-top: 10px;
-    color: var(--slate);
+    color: var(--light-mimir-green);
     line-height: 0.9;
   }
 

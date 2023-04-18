@@ -3,17 +3,25 @@ import { css } from 'styled-components';
 const variables = css`
   :root {
     --dark-navy: #020c1b;
+    --dark-mimir-green: #031412;
+    --dark-mimir-green-og: #062925;
     --navy: #0a192f;
+    --mimir-green: #044A42;
     --light-navy: #112240;
+    --light-mimir-green: #3A9188;
     --lightest-navy: #233554;
+    --lightest-mimir-green: #B8E1DD;
     --navy-shadow: rgba(2, 12, 27, 0.7);
+    --mimir-green-shadow: rgba(4, 74, 66, 0.7);
     --dark-slate: #495670;
     --slate: #8892b0;
     --light-slate: #a8b2d1;
     --lightest-slate: #ccd6f6;
     --white: #e6f1ff;
+    --mimir-white: #F1F2EB;
     --green: #64ffda;
     --green-tint: rgba(100, 255, 218, 0.1);
+    --mimir-green-tint: rgba(58, 145, 136, 0.1);
     --pink: #f57dff;
     --blue: #57cbff;
 

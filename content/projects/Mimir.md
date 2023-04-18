@@ -13,6 +13,7 @@ tech:
   - NextAuth.js + RedditAuth
   - Cypress
   - UI Ball
+company: 'BME - Thesis'
 showInProjects: false
 ---
 

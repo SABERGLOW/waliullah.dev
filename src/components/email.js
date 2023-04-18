@@ -16,7 +16,7 @@ const StyledLinkWrapper = styled.div`
     width: 1px;
     height: 90px;
     margin: 0 auto;
-    background-color: var(--light-slate);
+    background-color: var(--light-mimir-green);
   }
 
   a {
@@ -27,10 +27,12 @@ const StyledLinkWrapper = styled.div`
     line-height: var(--fz-lg);
     letter-spacing: 0.1em;
     writing-mode: vertical-rl;
+    color: var(--lightest-mimir-green);
 
     &:hover,
     &:focus {
       transform: translateY(-3px);
+      color: var(--light-mimir-green);
     }
   }
 `;

@@ -21,13 +21,13 @@ const GlobalStyle = createGlobalStyle`
   }
 
   ::selection {
-    background-color: var(--lightest-navy);
-    color: var(--lightest-slate);
+    background-color: var(--mimir-green);
+    color: var(--lightest-mimir-green);
   }
 
   /* Provide basic, default focus styles.*/
   :focus {
-    outline: 2px dashed var(--green);
+    outline: 2px dashed var(--lightest-mimir-green);
     outline-offset: 3px;
   }
 
@@ -46,24 +46,24 @@ const GlobalStyle = createGlobalStyle`
     focus.
   */
   :focus-visible {
-    outline: 2px dashed var(--green);
+    outline: 2px dashed var(--lightest-mimir-green);
     outline-offset: 3px;
   }
 
   /* Scrollbar Styles */
   html {
     scrollbar-width: thin;
-    scrollbar-color: var(--dark-slate) var(--navy);
+    scrollbar-color: var(--mimir-green) var(--dark-mimir-green);
   }
   ::-webkit-scrollbar {
     width: 12px;
   }
   ::-webkit-scrollbar-track {
-    background: var(--navy);
+    background: var(--dark-mimir-green);
   }
   ::-webkit-scrollbar-thumb {
-    background-color: var(--dark-slate);
-    border: 3px solid var(--navy);
+    background-color: var(--mimir-green);
+    border: 3px solid var(--dark-mimir-green);
     border-radius: 10px;
   }
 
@@ -74,8 +74,8 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--navy);
-    color: var(--slate);
+    background-color: var(--dark-mimir-green);
+    color: var(--light-mimir-green);
     font-family: var(--font-sans);
     font-size: var(--fz-xl);
     line-height: 1.3;
@@ -165,13 +165,19 @@ const GlobalStyle = createGlobalStyle`
   h6 {
     margin: 0 0 10px 0;
     font-weight: 600;
-    color: var(--lightest-slate);
+    color: var(--lightest-mimir-green);
     line-height: 1.1;
   }
 
   .big-heading {
     margin: 0;
     font-size: clamp(40px, 8vw, 80px);
+  }
+
+  .big-heading-archive {
+    margin: 0;
+    font-size: clamp(40px, 8vw, 80px);
+    color: var(--ligh-mimir-green);
   }
 
   .medium-heading {
@@ -187,6 +193,7 @@ const GlobalStyle = createGlobalStyle`
     width: 100%;
     font-size: clamp(26px, 5vw, var(--fz-heading));
     white-space: nowrap;
+    color: var(--light-mimir-green);
 
     &:before {
       position: relative;
@@ -194,7 +201,7 @@ const GlobalStyle = createGlobalStyle`
       counter-increment: section;
       content: '0' counter(section) '.';
       margin-right: 10px;
-      color: var(--green);
+      color: var(--lightest-mimir-green);
       font-family: var(--font-mono);
       font-size: clamp(var(--fz-md), 3vw, var(--fz-xl));
       font-weight: 400;
@@ -213,7 +220,7 @@ const GlobalStyle = createGlobalStyle`
       width: 300px;
       height: 1px;
       margin-left: 20px;
-      background-color: var(--lightest-navy);
+      background-color: var(--mimir-green);
 
       @media (max-width: 1080px) {
         width: 200px;
@@ -261,11 +268,15 @@ const GlobalStyle = createGlobalStyle`
 
     &:hover,
     &:focus {
-      color: var(--green);
+      color: var(--lightest-mimir-green);
     }
 
     &.inline-link {
       ${({ theme }) => theme.mixins.inlineLink};
+    }
+
+    &.inline-company-link {
+      ${({ theme }) => theme.mixins.inlineCompanyLink};
     }
   }
 
@@ -325,14 +336,14 @@ const GlobalStyle = createGlobalStyle`
           content: '▹';
           position: absolute;
           left: 0;
-          color: var(--green);
+          color: var(--lightest-mimir-green);
         }
       }
     }
   }
 
   blockquote {
-    border-left-color: var(--green);
+    border-left-color: var(--lightest-mimir-green);
     border-left-style: solid;
     border-left-width: 1px;
     margin-left: 0px;
@@ -372,7 +383,7 @@ const GlobalStyle = createGlobalStyle`
 
     &:focus,
     &:active {
-      background-color: var(--green);
+      background-color: var(--lightest-mimir-green);
       color: var(--navy);
       top: 0;
       left: 0;
@@ -384,18 +395,18 @@ const GlobalStyle = createGlobalStyle`
   }
 
   #logo {
-    color: var(--green);
+    color: var(--lightest-mimir-green);
   }
 
   .overline {
-    color: var(--green);
+    color: var(--lightest-mimir-green);
     font-family: var(--font-mono);
     font-size: var(--fz-md);
     font-weight: 400;
   }
 
   .subtitle {
-    color: var(--green);
+    color: var(--lightest-mimir-green);
     margin: 0 0 20px 0;
     font-size: var(--fz-md);
     font-family: var(--font-mono);
@@ -418,7 +429,7 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     align-items: center;
     margin-bottom: 50px;
-    color: var(--green);
+    color: var(--lightest-mimir-green);
 
     .arrow {
       display: block;
